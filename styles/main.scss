@@ -11,20 +11,23 @@ html {
 
   body {
     font-size: 1.6rem;
-    margin: 0;
-  }
 
-  img {
-    max-width: 100%;
+    font-family: "Playfair Display", serif;
+    background-image: url(../images/olena-bohovyk-Cq5NaI0yKBE-unsplash.webp);
+    color: rgb(232, 231, 231);
   }
 }
 
+img {
+  max-width: 100%;
+}
 .header {
-  background-color: black;
+  //   background-color: black;
+  padding: 3rem;
 
   .header-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
     .nav {
     }
     .logo-img {
@@ -32,7 +35,7 @@ html {
   }
 
   .nav {
-    background-color: rgb(15, 15, 15);
+    // background-color: rgb(15, 15, 15);
 
     .contents {
       display: none;
@@ -78,4 +81,55 @@ html {
 }
 
 .main {
+  .hero {
+    // background-image: url(../images/ramiro-martinez-NKsqN0-iIXY-unsplash.webp);
+    // background-size: 100vw;
+    // background-repeat: no-repeat;
+    // padding: 2rem 0 0;
+    // margin: 0;
+    // text-align: center;
+    // width: 75%;
+    .hero-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 95%;
+    }
+    .title {
+      display: flex;
+      justify-content: center;
+      color: rgb(232, 231, 231);
+      font-size: 3.5rem;
+      font-weight: 700;
+      text-align: center;
+      margin: 0;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .solar {
+    text-align: center;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 75%;
+    }
+  }
+
+  .lunar {
+    text-align: center;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 75%;
+    }
+  }
+}
+
+.footer {
+  //   display: flex;
 }
