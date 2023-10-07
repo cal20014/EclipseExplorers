@@ -10,21 +10,21 @@ html *::after {
 }
 html body {
   font-size: 1.6rem;
-  margin: 0;
+  font-family: "Playfair Display", serif;
+  background-image: url(../images/olena-bohovyk-Cq5NaI0yKBE-unsplash.webp);
+  color: rgb(232, 231, 231);
 }
-html img {
+
+img {
   max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 .header {
-  background-color: black;
-}
-.header .header-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.header .nav {
-  background-color: rgb(15, 15, 15);
+  padding: 3rem;
 }
 .header .nav .contents {
   display: none;
@@ -59,4 +59,44 @@ html img {
 .header .nav .link.active, .header .nav .link:hover {
   color: #d1d1d1;
   transition: color 300ms;
+}
+
+.main {
+  text-align: center;
+}
+.main .hero .hero-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+.main .hero .title {
+  display: flex;
+  justify-content: center;
+  color: rgb(232, 231, 231);
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.main .solar {
+  text-align: center;
+}
+.main .solar img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+.main .lunar {
+  text-align: center;
+}
+.main .lunar img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }/*# sourceMappingURL=main.css.map */
