@@ -12,7 +12,7 @@ html body {
   font-size: 1.6rem;
   font-family: "Playfair Display", serif;
   background-image: url(../images/olena-bohovyk-Cq5NaI0yKBE-unsplash.webp);
-  color: rgb(232, 231, 231);
+  color: #d1d1d1;
 }
 html body p {
   max-width: 75%;
@@ -51,6 +51,7 @@ img {
 }
 .header .nav .menu .icon.active {
   display: unset;
+  font-size: 2rem;
 }
 .header .nav .link {
   display: block;
@@ -60,6 +61,7 @@ img {
   color: #d1d1d1;
   text-decoration: none;
   font-weight: 700;
+  font-size: 2rem;
 }
 .header .nav .link.active, .header .nav .link:hover {
   color: #d1d1d1;
