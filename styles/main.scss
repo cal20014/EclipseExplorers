@@ -20,6 +20,10 @@ html {
 
 img {
   max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 .header {
   //   background-color: black;
@@ -81,6 +85,7 @@ img {
 }
 
 .main {
+  text-align: center;
   .hero {
     // background-image: url(../images/ramiro-martinez-NKsqN0-iIXY-unsplash.webp);
     // background-size: 100vw;

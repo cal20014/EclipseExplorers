@@ -17,6 +17,10 @@ html body {
 
 img {
   max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 .header {
@@ -57,6 +61,9 @@ img {
   transition: color 300ms;
 }
 
+.main {
+  text-align: center;
+}
 .main .hero .hero-img {
   display: block;
   margin-left: auto;
