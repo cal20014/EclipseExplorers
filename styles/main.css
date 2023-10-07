@@ -1,1 +1,62 @@
-/*# sourceMappingURL=main.css.map */
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+html *,
+html *::before,
+html *::after {
+  box-sizing: inherit;
+}
+html body {
+  font-size: 1.6rem;
+  margin: 0;
+}
+html img {
+  max-width: 100%;
+}
+
+.header {
+  background-color: black;
+}
+.header .header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.header .nav {
+  background-color: rgb(15, 15, 15);
+}
+.header .nav .contents {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header .nav .contents.active {
+  display: flex;
+}
+.header .nav .menu {
+  display: block;
+  background: none;
+  border: none;
+  margin-left: auto;
+}
+.header .nav .menu .icon {
+  display: none;
+}
+.header .nav .menu .icon.active {
+  display: unset;
+}
+.header .nav .link {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  color: #d1d1d1;
+  text-decoration: none;
+  font-weight: 700;
+}
+.header .nav .link.active, .header .nav .link:hover {
+  color: #d1d1d1;
+  transition: color 300ms;
+}/*# sourceMappingURL=main.css.map */
