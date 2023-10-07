@@ -12,7 +12,11 @@ html body {
   font-size: 1.6rem;
   font-family: "Playfair Display", serif;
   background-image: url(../images/olena-bohovyk-Cq5NaI0yKBE-unsplash.webp);
-  color: rgb(232, 231, 231);
+  color: #d1d1d1;
+}
+html body p {
+  max-width: 75%;
+  margin: auto;
 }
 
 img {
@@ -21,6 +25,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 75%;
+  padding: 0 0 1rem;
 }
 
 .header {
@@ -46,6 +51,7 @@ img {
 }
 .header .nav .menu .icon.active {
   display: unset;
+  font-size: 2rem;
 }
 .header .nav .link {
   display: block;
@@ -55,6 +61,7 @@ img {
   color: #d1d1d1;
   text-decoration: none;
   font-weight: 700;
+  font-size: 2rem;
 }
 .header .nav .link.active, .header .nav .link:hover {
   color: #d1d1d1;
@@ -62,6 +69,8 @@ img {
 }
 
 .main {
+  max-width: 85%;
+  margin: auto;
   text-align: center;
 }
 .main .hero .hero-img {
@@ -79,8 +88,12 @@ img {
   text-align: center;
   margin: 0;
   text-align: center;
-  padding: 0;
+  padding: 0 0 3rem;
   margin: 0;
+}
+.main .display .link {
+  text-decoration: none;
+  color: #d1d1d1;
 }
 .main .solar {
   text-align: center;
@@ -99,4 +112,42 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 75%;
+}
+
+.footer .contents .list {
+  list-style-type: none;
+}
+.footer .contents .list .item .link {
+  color: #d1d1d1;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 1rem;
+}
+.footer .contents .list .item .link.active, .footer .contents .list .item .link:hover {
+  color: #d1d1d1;
+  transition: color 300ms;
+}
+
+@media screen and (min-width: 750px) {
+  .main .contents {
+    display: flex;
+    flex-direction: row;
+    max-width: 100rem;
+    margin: auto;
+  }
+  img {
+    max-width: 75%;
+  }
+  .header .nav .contents {
+    display: flex;
+    flex-direction: row;
+    max-width: 100rem;
+    margin: auto;
+  }
+  .header .nav .contents .link {
+    padding: 1.6rem;
+  }
+  .header .nav .menu {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
