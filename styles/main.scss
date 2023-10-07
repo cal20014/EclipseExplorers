@@ -33,7 +33,7 @@ img {
 }
 .header {
   //   background-color: black;
-  padding: 3rem;
+  padding: 1rem 0 4rem;
 
   .header-container {
     // display: grid;
@@ -85,7 +85,7 @@ img {
 
       &.active,
       &:hover {
-        color: #d1d1d1;
+        color: #ff9113;
         transition: color 300ms;
       }
     }
