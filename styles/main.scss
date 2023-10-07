@@ -15,6 +15,11 @@ html {
     font-family: "Playfair Display", serif;
     background-image: url(../images/olena-bohovyk-Cq5NaI0yKBE-unsplash.webp);
     color: rgb(232, 231, 231);
+
+    p {
+      max-width: 75%;
+      margin: auto;
+    }
   }
 }
 
@@ -24,6 +29,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 75%;
+  padding: 0 0 1rem;
 }
 .header {
   //   background-color: black;
@@ -85,6 +91,8 @@ img {
 }
 
 .main {
+  max-width: 85%;
+  margin: auto;
   text-align: center;
   .hero {
     // background-image: url(../images/ramiro-martinez-NKsqN0-iIXY-unsplash.webp);
@@ -109,8 +117,15 @@ img {
       text-align: center;
       margin: 0;
       text-align: center;
-      padding: 0;
+      padding: 0 0 3rem;
       margin: 0;
+    }
+  }
+
+  .display {
+    .link {
+      text-decoration: none;
+      color: #d1d1d1;
     }
   }
 
@@ -136,5 +151,55 @@ img {
 }
 
 .footer {
-  //   display: flex;
+  .contents {
+    .list {
+      list-style-type: none;
+      .item {
+        .link {
+          color: #d1d1d1;
+          text-decoration: none;
+          font-weight: 700;
+          padding: 1rem;
+          &.active,
+          &:hover {
+            color: #d1d1d1;
+            transition: color 300ms;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .main {
+    .contents {
+      display: flex;
+      flex-direction: row;
+      max-width: 100rem;
+      margin: auto;
+    }
+  }
+
+  img {
+    max-width: 75%;
+  }
+  .header {
+    .nav {
+      .contents {
+        display: flex;
+        flex-direction: row;
+        max-width: 100rem;
+        margin: auto;
+
+        .link {
+          padding: 1.6rem;
+        }
+      }
+
+      .menu {
+        display: none;
+      }
+    }
+  }
 }

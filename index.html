@@ -60,7 +60,7 @@
             </button>
             <div class="contents">
               <a class="link active" href="index.html">Home</a>
-              <a class="link" href="#">Solar Eclipse</a>
+              <a class="link" href="#solar">Solar Eclipse</a>
               <a class="link" href="#">Lunar Eclipse</a>
               <a class="link" href="#">Learn More</a>
             </div>
@@ -78,19 +78,28 @@
     
         </div>
       </section>
-      <section class="display solar">
-        <h1>Solar Eclipse</h1>
-        <img src="./images/jongsun-lee-F-pSZO_jeE8-unsplash.webp" width="400" loading="lazy" alt="Solar Eclipse"><a href="#"></a></img>
-        <!-- Photo by <a href="https://unsplash.com/@sarahleejs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jongsun Lee</a> on <a href="https://unsplash.com/photos/F-pSZO_jeE8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
-  
-      </section>
-      <section class="display lunar">
-        <h1>Lunar Eclipse</h1>
-        <img src="./images/yu-kato-ZOSkWlDVCsE-unsplash.webp" width="400" loading="lazy" alt="Lunar Eclipse"><a href="#"></a></img>
-        <!-- Photo by <a href="https://unsplash.com/@yukato?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Yu Kato</a> on <a href="https://unsplash.com/photos/ZOSkWlDVCsE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
-  
-      </section>
-      <section class = "solar_info">
+      <div class="contents">
+
+        <section class="display solar">
+          <a class="link" href="#solar">
+            <h1 class="title">Solar Eclipse</h1>
+
+            <img src="./images/jongsun-lee-F-pSZO_jeE8-unsplash.webp" width="400" loading="lazy" alt="Solar Eclipse"></img>
+            <!-- Photo by <a href="https://unsplash.com/@sarahleejs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jongsun Lee</a> on <a href="https://unsplash.com/photos/F-pSZO_jeE8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+          </a>
+    
+        </section>
+        <section class="display lunar">
+          <a class="link" href="#lunar">
+
+            <h1 class="title">Lunar Eclipse</h1>
+            <img src="./images/yu-kato-ZOSkWlDVCsE-unsplash.webp" width="400" loading="lazy" alt="Lunar Eclipse"></img>
+          </a>
+          <!-- Photo by <a href="https://unsplash.com/@yukato?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Yu Kato</a> on <a href="https://unsplash.com/photos/ZOSkWlDVCsE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+    
+        </section>
+      </div>
+      <section class = "solar_info" id="solar">
         <h1 class = "section_header">Solar Eclipse</h1>
         <img src="images/solar_placeholder.webp" width = "300" alt="solar_image" class = "eclipse_media" id = "solar_img"></img>
           <p class = "media_description" id = "solar_img_description">This is a solar eclipse which means the earth is in between the sun and the moon</p>
@@ -153,12 +162,12 @@
     </main>
     <footer class=footer>
       <h1>Additional Resources</h1>
-      <div>
-        <ul>
-          <li><a href="https://solarsystem.nasa.gov/eclipses/home/" class = "additional_links"> NASA Eclipse Website</a></li>
-          <li><a href="https://solarsystem.nasa.gov/eclipses/about-eclipses/faq/" class = "additional_links">NASA FAQ About Eclipses</a></li>
-          <li><a href="https://moon.nasa.gov/news/185/what-you-need-to-know-about-the-lunar-eclipse/#:~:text=The%20last%20total%20lunar%20eclipse,Moon%20passes%20into%20Earth's%20shadow" class = "additional_links"> Lunar Eclipses</a></li>
-          <li><a href="https://spaceplace.nasa.gov/eclipse-snap/" class = "additional_links">Solar Eclipses</a></li>
+      <div class="contents">
+        <ul class="list">
+          <li class="item"><a class="link" href="https://solarsystem.nasa.gov/eclipses/home/" class = "additional_links"> NASA Eclipse Website</a></li>
+          <li class="item"><a class="link" href="https://solarsystem.nasa.gov/eclipses/about-eclipses/faq/" class = "additional_links">NASA FAQ About Eclipses</a></li>
+          <li class="item"><a class="link" href="https://moon.nasa.gov/news/185/what-you-need-to-know-about-the-lunar-eclipse/#:~:text=The%20last%20total%20lunar%20eclipse,Moon%20passes%20into%20Earth's%20shadow" class = "additional_links"> Lunar Eclipses</a></li>
+          <li class="item"><a class="link" href="https://spaceplace.nasa.gov/eclipse-snap/" class = "additional_links">Solar Eclipses</a></li>
         </ul>
     </div>
     </footer>
