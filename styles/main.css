@@ -18,6 +18,9 @@ html body p {
   max-width: 75%;
   margin: auto;
 }
+html body section {
+  padding: 0 0 10rem;
+}
 
 img {
   max-width: 100%;
@@ -25,11 +28,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 75%;
-  padding: 0 0 1rem;
+  padding: 1rem 0;
 }
 
 .header {
-  padding: 1rem 0 4rem;
+  padding: 0 0 4rem;
 }
 .header .nav .contents {
   display: none;
@@ -39,6 +42,9 @@ img {
 }
 .header .nav .contents.active {
   display: flex;
+}
+.header .nav .ham-menu {
+  padding: 0;
 }
 .header .nav .menu {
   display: block;
@@ -126,6 +132,11 @@ img {
   margin-right: auto;
   width: 75%;
 }
+.main .video {
+  padding: 4rem 0 2rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
 
 .footer {
   max-width: 85%;
@@ -157,6 +168,9 @@ img {
     flex-direction: row;
     max-width: 100rem;
     margin: auto;
+  }
+  .main .video {
+    max-width: 1000px;
   }
   img {
     max-width: 75%;

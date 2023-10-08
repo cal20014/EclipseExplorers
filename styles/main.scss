@@ -20,6 +20,10 @@ html {
       max-width: 75%;
       margin: auto;
     }
+
+    section {
+      padding: 0 0 10rem;
+    }
   }
 }
 
@@ -29,20 +33,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 75%;
-  padding: 0 0 1rem;
+  padding: 1rem 0;
 }
 .header {
   //   background-color: black;
-  padding: 1rem 0 4rem;
-
-  .header-container {
-    // display: grid;
-    // grid-template-columns: 1fr 1fr;
-    .nav {
-    }
-    .logo-img {
-    }
-  }
+  padding: 0 0 4rem;
 
   .nav {
     // background-color: rgb(15, 15, 15);
@@ -57,7 +52,9 @@ img {
         display: flex;
       }
     }
-
+    .ham-menu {
+      padding: 0;
+    }
     .menu {
       display: block;
       background: none;
@@ -163,6 +160,12 @@ img {
       width: 75%;
     }
   }
+
+  .video {
+    padding: 4rem 0 2rem;
+    max-width: 400px;
+    margin: 0 auto;
+  }
 }
 
 .footer {
@@ -201,6 +204,9 @@ img {
       flex-direction: row;
       max-width: 100rem;
       margin: auto;
+    }
+    .video {
+      max-width: 1000px;
     }
   }
 
