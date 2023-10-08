@@ -93,6 +93,7 @@ img {
 }
 
 .main {
+  padding: 0 0 2rem;
   max-width: 85%;
   margin: auto;
   text-align: center;
@@ -165,9 +166,13 @@ img {
 }
 
 .footer {
+  max-width: 85%;
+  margin: auto;
+  text-align: center;
   .contents {
     .list {
       list-style-type: none;
+      padding: 0;
       .item {
         .link {
           color: #d1d1d1;
@@ -176,7 +181,7 @@ img {
           padding: 1rem;
           &.active,
           &:hover {
-            color: #d1d1d1;
+            color: #ff9113;
             transition: color 300ms;
           }
         }

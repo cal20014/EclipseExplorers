@@ -69,6 +69,7 @@ img {
 }
 
 .main {
+  padding: 0 0 2rem;
   max-width: 85%;
   margin: auto;
   text-align: center;
@@ -126,8 +127,14 @@ img {
   width: 75%;
 }
 
+.footer {
+  max-width: 85%;
+  margin: auto;
+  text-align: center;
+}
 .footer .contents .list {
   list-style-type: none;
+  padding: 0;
 }
 .footer .contents .list .item .link {
   color: #d1d1d1;
@@ -136,7 +143,7 @@ img {
   padding: 1rem;
 }
 .footer .contents .list .item .link.active, .footer .contents .list .item .link:hover {
-  color: #d1d1d1;
+  color: #ff9113;
   transition: color 300ms;
 }
 
