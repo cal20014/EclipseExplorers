@@ -15,15 +15,24 @@ html {
     font-family: "Playfair Display", serif;
     background-image: url(../images/olena-bohovyk-Cq5NaI0yKBE-unsplash.webp);
     color: #d1d1d1;
-
+    h1{
+      font-size: 3em;
+    }
     p {
       max-width: 75%;
       margin: auto;
+      line-height: 25px;
+      font-size: 16pt;
     }
 
     section {
       padding: 0 0 10rem;
     }
+    h3 {
+      font-size: 20pt;
+    }
+    
+
   }
 }
 
@@ -34,6 +43,7 @@ img {
   margin-right: auto;
   width: 75%;
   padding: 1rem 0;
+  border-radius: 20px;
 }
 .header {
   //   background-color: black;
@@ -112,7 +122,7 @@ img {
       display: flex;
       justify-content: center;
       color: rgb(232, 231, 231);
-      font-size: 3.5rem;
+      font-size: 4.5rem;
       font-weight: 700;
       text-align: center;
       margin: 0;
@@ -232,3 +242,17 @@ img {
     }
   }
 }
+
+
+.pic_description{
+  padding-bottom: 70px;
+  
+}
+
+.vid_description{
+  padding-top: 18px;
+}
+.source{
+  font-size: 10pt;
+}
+

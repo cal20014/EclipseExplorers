@@ -14,12 +14,20 @@ html body {
   background-image: url(../images/olena-bohovyk-Cq5NaI0yKBE-unsplash.webp);
   color: #d1d1d1;
 }
+html body h1 {
+  font-size: 3em;
+}
 html body p {
   max-width: 75%;
   margin: auto;
+  line-height: 25px;
+  font-size: 16pt;
 }
 html body section {
   padding: 0 0 10rem;
+}
+html body h3 {
+  font-size: 20pt;
 }
 
 img {
@@ -29,6 +37,7 @@ img {
   margin-right: auto;
   width: 75%;
   padding: 1rem 0;
+  border-radius: 20px;
 }
 
 .header {
@@ -90,7 +99,7 @@ img {
   display: flex;
   justify-content: center;
   color: rgb(232, 231, 231);
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: 700;
   text-align: center;
   margin: 0;
@@ -187,4 +196,15 @@ img {
   .header .nav .menu {
     display: none;
   }
+}
+.pic_description {
+  padding-bottom: 70px;
+}
+
+.vid_description {
+  padding-top: 18px;
+}
+
+.source {
+  font-size: 10pt;
 }/*# sourceMappingURL=main.css.map */
