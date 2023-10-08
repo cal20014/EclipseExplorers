@@ -91,9 +91,21 @@ img {
   padding: 0 0 3rem;
   margin: 0;
 }
+.main .display img:hover {
+  width: 150%;
+  transition: color 300ms;
+}
 .main .display .link {
   text-decoration: none;
   color: #d1d1d1;
+}
+.main .display .source-container {
+  font-size: 0.75rem;
+}
+.main .display .source {
+  text-decoration: none;
+  color: #d1d1d1;
+  font-size: 1rem;
 }
 .main .solar {
   text-align: center;
@@ -126,6 +138,10 @@ img {
 .footer .contents .list .item .link.active, .footer .contents .list .item .link:hover {
   color: #d1d1d1;
   transition: color 300ms;
+}
+
+.space {
+  padding: 1rem;
 }
 
 @media screen and (min-width: 750px) {

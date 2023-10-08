@@ -125,9 +125,21 @@ img {
   }
 
   .display {
+    img:hover {
+      width: 150%;
+      transition: color 300ms;
+    }
     .link {
       text-decoration: none;
       color: #d1d1d1;
+    }
+    .source-container {
+      font-size: 0.75rem;
+    }
+    .source {
+      text-decoration: none;
+      color: #d1d1d1;
+      font-size: 1rem;
     }
   }
 
@@ -171,6 +183,10 @@ img {
       }
     }
   }
+}
+
+.space {
+  padding: 1rem;
 }
 
 @media screen and (min-width: 750px) {
